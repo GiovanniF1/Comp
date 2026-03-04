@@ -1,0 +1,146 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0F0F12;
+    color: #F5F5F5;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 8%;
+    background-color: #1A1A1F;
+}
+
+.logo {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 24px;
+    color: #E85D04;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #F5F5F5;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #E85D04;
+}
+
+/* BOTONES */
+.btn-primary {
+    background-color: #E85D04;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #B11226;
+}
+
+.btn-secondary {
+    border: 1px solid #B11226;
+    padding: 10px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #F5F5F5;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+.btn-secondary:hover {
+    background-color: #B11226;
+}
+
+/* HERO */
+.hero {
+    padding: 100px 8%;
+    text-align: left;
+}
+
+.hero h1 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #B3B3B3;
+}
+
+/* CATEGORÍAS */
+.categories {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 60px 8%;
+}
+
+.card {
+    background-color: #1A1A1F;
+    padding: 40px 20px;
+    text-align: center;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    border-bottom: 3px solid #E85D04;
+    transform: translateY(-5px);
+}
+
+/* INFO */
+.info {
+    padding: 80px 8%;
+    background-color: #1A1A1F;
+}
+
+.info h2 {
+    font-family: 'Orbitron', sans-serif;
+    margin-bottom: 20px;
+}
+
+/* BENEFICIOS */
+.benefits {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 8%;
+    gap: 20px;
+}
+
+.benefit {
+    background-color: #1A1A1F;
+    padding: 30px;
+    border-radius: 8px;
+    flex: 1;
+}
+
+.benefit h4 {
+    margin-bottom: 10px;
+    color: #E85D04;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1A1A1F;
+    color: #B3B3B3;
+    font-size: 14px;
+}
